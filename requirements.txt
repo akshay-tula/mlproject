@@ -5,5 +5,5 @@ matplotlib
 scikit-learn
 xgboost
 catboost
-GradientBoostingRegressor
+dill
 #-e .
