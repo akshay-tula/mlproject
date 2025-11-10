@@ -18,7 +18,7 @@ ENV FLASK_APP=application.py
 
 # Start the application using Gunicorn (a robust production server)
 # 'application:application' points to the 'application' object inside application.py
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "application:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "application:app"]
 # --- END FIX ---
 
 EXPOSE 5000
